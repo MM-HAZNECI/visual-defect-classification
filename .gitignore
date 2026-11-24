@@ -1,0 +1,37 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Local datasets
+data/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# MLflow local artifacts
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE local settings
+.idea/
+.vscode/
